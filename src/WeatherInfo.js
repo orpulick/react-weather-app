@@ -15,7 +15,11 @@ export default function WeatherInfo(props) {
       <div className="row">
         <div className="col-6">
           <div className="float-left">
-            <WeatherIcon code={props.data.icon} alt={props.data.description} />
+            <WeatherIcon
+              code={props.data.icon}
+              alt={props.data.description}
+              size={52}
+            />
           </div>
 
           <strong className="temperature">{Math.round(props.data.temp)}</strong>
