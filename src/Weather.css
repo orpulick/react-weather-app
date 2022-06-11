@@ -27,8 +27,8 @@ li::first-letter {
 .overview {
   margin-bottom: 20px;
 }
-.Weather canvas {
-  margin-top: 5px;
+.icon_main canvas {
+  margin-top: 20px;
   margin-right: 10px;
   float: left;
 }
